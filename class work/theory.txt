@@ -1,0 +1,8 @@
+what is html?
+html stands for hyper text markup language.
+html is standard mark up language for create a web page.
+html describe structure of webpage.
+html consit series of element.
+html tell the browser how tio display the content.
+html element label pieces of content such as "this is heading.",
+"this is a paregraph","this is a link",etc.
