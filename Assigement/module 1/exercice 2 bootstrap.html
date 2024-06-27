@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 0px;
+            position: relative;
+            margin-left: 40px;
+        }
+        .product-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .product-image {
+            height: 150px;
+            width: 90%;
+            object-fit: contain;
+            margin-bottom: 10px; /* Adjusted margin */
+        }
+        .product-info {
+            margin-top: 20px; /* Added margin */
+        }
+        .product-rating {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="row">
+            <!-- Product Card 1 -->
+            <div style="width: 50%; display: flex; margin-top: 50PX;" >
+                <div class="product-card" style="width: 100%; display: flex; margin-bottom: 30%;">
+                    <div class="product-badge">HOT</div>
+                   <div> <img src="mobile.png" class="product-image" alt="Product 1"></div>
+                   <div> <div class="product-info">
+                        <h5>OnePlus</h5>
+                        <p>Mobile</p>
+                        <p>$199</p>
+                        <p>A Short product description here</p>
+                    </div>
+                    <button class="btn btn-danger">Add to cart</button>
+                    <button class="btn btn-info">More info</button>
+                    <div class="product-rating">
+                        <span>Rating:</span>
+                        <span>*****</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 2 -->
+        <div style="width: 50%; display: flex; margin-top: 50PX;" >
+            <div class="product-card" style="width: 100%; display: flex; margin-bottom: 30%;">
+                <div class="product-badge">HOT</div>
+               <div> <img src="laptop.png" class="product-image" alt="Product 2"></div>
+               <div> <div class="product-info">
+                    <h5>Asus</h5>
+                    <p>Laptop</p>
+                    <p>$599</p>
+                    <p>A Short product description here</p>
+                </div>
+                <button class="btn btn-danger">Add to cart</button>
+                <button class="btn btn-info">More info</button>
+                <div class="product-rating">
+                    <span>Rating:</span>
+                    <span>*****</span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="width: 1150px; margin-top: -100px;">
+            <!-- Product Card 3 -->
+           
+            <div style="width: 50%; display: flex;" >
+                <div class="product-card" style="width: 100%; display: flex; margin-bottom: 30%;">
+                    <div class="product-badge" >HOT</div>
+                   <div> <img src="tablet.png" class="product-image" alt="Product 3"  style="margin-left: 30px;"></div>
+                   <div> <div class="product-info"  style="margin-left: 40px;">
+                        <h5>Mi</h5>
+                        <p>Tablet</p>
+                        <p>$399</p>
+                        <p>A Short product description here</p>
+                    </div>
+                    <button class="btn btn-danger" style="margin-left: 40px;">Add to cart</button>
+                    <button class="btn btn-info">More info</button>
+                    <div class="product-rating" style="margin-left: 40px;">
+                        <span>Rating:</span>
+                        <span>*****</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 4 -->
+            <div style="width: 50%; display: flex;" >
+                <div class="product-card" style="width: 100%; display: flex; margin-bottom: 30%;">
+                    <div class="product-badge">HOT</div>
+                   <div> <img src="bluethooth.png" class="product-image" alt="Product 4" style="margin-left: 20PX;"></div>
+                   <div> <div class="product-info" style="margin-left: 50px;">
+                        <h5>Mi</h5>
+                        <p>Neckband</p>
+                        <p>$49</p>
+                        <p>A Short product description here</p>
+                    </div>
+                    <button class="btn btn-danger"  style="margin-left: 50px;">Add to cart</button>
+                    <button class="btn btn-info">More info</button>
+                    <div class="product-rating"  style="margin-left: 50px;">
+                        <span>Rating:</span>
+                        <span>*****</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                    
+                
+        
+        </div>
+    </div>
+
+    
+</body>
+</html>
