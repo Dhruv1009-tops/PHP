@@ -33,7 +33,7 @@ $cars = [
 ];
 
 <?php
-Converting a JSON String to an Array
+//Converting a JSON String to an Array
 $json_string = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 $array = json_decode($json_string, true);
 
